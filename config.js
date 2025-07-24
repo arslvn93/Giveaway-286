@@ -27,16 +27,10 @@ const config = {
     "theme": "dark",
     "primaryColorOverride": "",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
-    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
     "facebookPixelId": "1057475448873422",
     "salesGeniusAppApi": "",
-    "followUpBossEmail": ""
-  },
-  "thankYouPage": {
-    "pageTitle": "Thank You for Your Entry!",
-    "headerText": "🎉 You’re Entered!",
-    "mainMessage": "Your entry for the <strong>Blue Jays Game Night Giveaway</strong> is in! The draw happens August 10th. Watch your email—we’ll contact the winner right away. Good luck!",
-    "socialPromptText": "Share this page with other fans. More entries make the fun bigger!"
+    "followUpBossEmail": "",
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate"
   },
   "prize": {
     "images": [
@@ -128,44 +122,19 @@ const config = {
         "icon": "fas fa-users",
         "text": "Bring a friend or family"
       }
-    ],
+    ]
+  },
+  "rules": {
+    "faq": [],
+    "tips": [],
     "fairSelectionInfo": {
-      "title": "Random and Fair Draw",
-      "text": "We pick our winner using a random draw. Everyone gets the same fair shot—no tricks."
+      "title": "",
+      "text": ""
     },
     "importantNotice": {
-      "title": "Winner Notified by Email",
-      "text": "Check your email on August 10th. If you win, we’ll reach out right away!"
-    },
-    "faq": [
-      {
-        "q": "Who can enter?",
-        "a": "Anyone 18 or older in the Greater Toronto Area can enter. Blue Jays fans, friends, and sports lovers—this is for you!"
-      },
-      {
-        "q": "How will I know if I won?",
-        "a": "We’ll email the winner on August 10th. Watch your inbox (and your spam folder) that day."
-      },
-      {
-        "q": "What’s special about this game?",
-        "a": "It's Blue Jays vs Cubs—plus, it’s $1 hot dog night! Enjoy all the baseball fun and cheap snacks."
-      },
-      {
-        "q": "Can I bring anyone?",
-        "a": "Absolutely! The two tickets are yours to use, bring your best friend, family member, or a fellow Blue Jays superfan."
-      },
-      {
-        "q": "Do I need to pay anything?",
-        "a": "Nope, the tickets are totally free—just bring your Blue Jays spirit and maybe a few bucks for snacks!"
-      }
-    ],
-    "tips": [
-      "Make sure your email is spelled right",
-      "Tell us who you’d bring for fun",
-      "Follow Anthony Caputo on Facebook for winner updates",
-      "Share this giveaway with fellow fans",
-      "Check your email August 10th!"
-    ]
+      "title": "",
+      "text": ""
+    }
   },
   "entryForm": {
     "sharePlatforms": {
@@ -178,66 +147,84 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_custom_1",
-      "questionText": "Who would you bring with you to the game if you win?",
-      "options": []
-    },
-    {
-      "id": "q_custom_2",
-      "questionText": "Are you a longtime Blue Jays fan or new to baseball?",
-      "options": []
-    },
-    {
-      "id": "q_custom_3",
-      "questionText": "Are you planning to make a move or explore new homes in Toronto within the next year?",
-      "options": []
-    },
-    {
-      "id": "q_custom_4",
-      "questionText": "What’s your favorite thing about going to live sports events?",
-      "options": []
-    },
-    {
-      "id": "q_qual_1",
-      "questionText": "When you attend a baseball game, how often do you consider this experience as an opportunity to network or connect with others?",
+      "id": "q_auto_1753381261588_0",
+      "questionText": "What do you like the most about your current home?",
       "options": [
-        { "value": "Frequently", "text": "Frequently" },
-        { "value": "Occasionally", "text": "Occasionally" },
-        { "value": "Rarely", "text": "Rarely" },
-        { "value": "Never", "text": "Never" }
+        {
+          "value": "The location",
+          "text": "The location"
+        },
+        {
+          "value": "The layout",
+          "text": "The layout"
+        },
+        {
+          "value": "The finishes (paint, lighting, etc.",
+          "text": "The finishes (paint, lighting, etc."
+        },
+        {
+          "value": "The outdoor space",
+          "text": "The outdoor space"
+        }
       ]
     },
     {
-      "id": "q_qual_2",
-      "questionText": "How do you usually prefer to enhance your stadium experience?",
+      "id": "q_auto_1753381261588_1",
+      "questionText": "Is a move on your radar in the near future?",
       "options": [
-        { "value": "Exclusive Clubs/Lounges", "text": "Through access to exclusive clubs/lounges" },
-        { "value": "Premium Seating", "text": "Premium seating with great views" },
-        { "value": "Fan Groups", "text": "Engaging in pre-game or online forums/fan groups" },
-        { "value": "Enjoy The Game", "text": "I just enjoy the game as it is" }
+        {
+          "value": "Yes, sometime in 2025",
+          "text": "Yes, sometime in 2025"
+        },
+        {
+          "value": "Yes, in the next 1–2 years",
+          "text": "Yes, in the next 1–2 years"
+        },
+        {
+          "value": "Not at the moment",
+          "text": "Not at the moment"
+        },
+        {
+          "value": "I’m not sure yet",
+          "text": "I’m not sure yet"
+        }
       ]
     },
     {
-      "id": "q_qual_3",
-      "questionText": "What influences your decision to attend a live sporting event?",
+      "id": "q_auto_1753381261588_2",
+      "questionText": "What’s your current housing situation?",
       "options": [
-        { "value": "Excitement", "text": "The excitement of the game itself" },
-        { "value": "Family/Friends", "text": "The opportunity to spend time with family and friends" },
-        { "value": "Promotions", "text": "Access to special promotions and deals (like $1 hot dog night)" },
-        { "value": "Explore Area", "text": "The chance to explore the surrounding area or visit local venues" }
-      ]
-    },
-    {
-      "id": "q_qual_4",
-      "questionText": "Which of these future plans do you resonate with the most?",
-      "options": [
-        { "value": "Networking", "text": "Expanding my professional or business network" },
-        { "value": "Enjoyment", "text": "Investing in personal experiences and enjoyment" },
-        { "value": "Exploring", "text": "Finding new places or communities to explore" },
-        { "value": "No Plans", "text": "I do not currently have specific plans" }
+        {
+          "value": "I rent and am interested in buying",
+          "text": "I rent and am interested in buying"
+        },
+        {
+          "value": "I own and might sell within 2 years",
+          "text": "I own and might sell within 2 years"
+        },
+        {
+          "value": "I own and am happy where I am",
+          "text": "I own and am happy where I am"
+        },
+        {
+          "value": "I’m actively looking to buy or sell now",
+          "text": "I’m actively looking to buy or sell now"
+        }
       ]
     }
   ],
+  "thankYouPage": {
+    "socialLinks": {
+      "facebook": "",
+      "instagram": "",
+      "twitter": "",
+      "tiktok": ""
+    },
+    "pageTitle": "Thank You for Your Entry!",
+    "headerText": "🎉 You’re Entered!",
+    "mainMessage": "Your entry for the <strong>Blue Jays Game Night Giveaway</strong> is in! The draw happens August 10th. Watch your email—we’ll contact the winner right away. Good luck!",
+    "socialPromptText": "Share this page with other fans. More entries make the fun bigger!"
+  },
   "footerContact": {
     "social": {
       "facebook": "https://www.facebook.com/share/1DrMVdUjLo/?mibextid=wwXIfr",
