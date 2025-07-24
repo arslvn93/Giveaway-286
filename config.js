@@ -147,7 +147,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1753381263729_0",
+      "id": "q_auto_1753381426296_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -169,7 +169,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1753381263729_1",
+      "id": "q_auto_1753381426297_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -191,7 +191,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1753381263729_2",
+      "id": "q_auto_1753381426297_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -237,11 +237,11 @@ const config = {
       "email": "acaputorealty@gmail.com"
     },
     "footerDisclaimer": "This giveaway is in no way sponsored by or affiliated with the Toronto Blue Jays, Chicago Cubs, or Rogers Centre. Winner chosen at random on August 10th. Must be 18 or older and a resident of the Greater Toronto Area to enter.",
-    "organizerLogoUrl": "",
-    "secondaryLogoUrl": "",
+    "organizerLogoUrl": "https://papiphotos.remax-im.com/Person/102195507/MainPhoto_cropped/MainPhoto_cropped.jpg",
+    "secondaryLogoUrl": "https://static-images.remax.ca/next-assets/logos/REMAX_Residential.svg",
     "secondaryLogoAlt": "",
     "organizerName": "Anthony Caputo",
-    "brokerageName": "",
+    "brokerageName": "RE/MAX EXPERTS",
     "address": "",
     "email": "acaputorealty@gmail.com",
     "phone": "416-938-7771",
