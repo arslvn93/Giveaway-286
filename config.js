@@ -125,7 +125,16 @@ const config = {
     ]
   },
   "rules": {
-    "faq": [],
+    "faq": [
+      {
+        "q": "How We Choose the Winner",
+        "a": "The Winner will be chosen randomly between all the entries, only people who follow us on Instagram or Facebook are eligible to win"
+      },
+      {
+        "q": "Winner Notification - Check Your Email!",
+        "a": "We'll send an Email confirmation immediately after you sign up"
+      }
+    ],
     "tips": [],
     "fairSelectionInfo": {
       "title": "",
@@ -147,7 +156,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1753381426296_0",
+      "id": "q_auto_1753381626444_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -169,7 +178,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1753381426297_1",
+      "id": "q_auto_1753381626444_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -191,7 +200,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1753381426297_2",
+      "id": "q_auto_1753381626444_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -237,7 +246,7 @@ const config = {
       "email": "acaputorealty@gmail.com"
     },
     "footerDisclaimer": "This giveaway is in no way sponsored by or affiliated with the Toronto Blue Jays, Chicago Cubs, or Rogers Centre. Winner chosen at random on August 10th. Must be 18 or older and a resident of the Greater Toronto Area to enter.",
-    "organizerLogoUrl": "https://papiphotos.remax-im.com/Person/102195507/MainPhoto_cropped/MainPhoto_cropped.jpg",
+    "organizerLogoUrl": "https://thecaputogroup.ca/wp-content/uploads/2023/03/Logo-04.png",
     "secondaryLogoUrl": "https://static-images.remax.ca/next-assets/logos/REMAX_Residential.svg",
     "secondaryLogoAlt": "",
     "organizerName": "Anthony Caputo",
