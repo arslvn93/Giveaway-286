@@ -24,7 +24,7 @@ const config = {
       "#FFFFFF"
     ],
     "showCountdownInHero": true,
-    "theme": "dark",
+    "theme": "light",
     "primaryColorOverride": "",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/sOCXFADErl7YnAppyjkb/webhook-trigger/d1ryyGnWSyjJBuySHKaK",
     "facebookPixelId": "155728600725982",
@@ -156,7 +156,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1753382521601_0",
+      "id": "q_auto_1753454299776_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -178,7 +178,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1753382521601_1",
+      "id": "q_auto_1753454299776_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -200,7 +200,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1753382521601_2",
+      "id": "q_auto_1753454299776_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
