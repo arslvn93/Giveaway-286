@@ -6,7 +6,7 @@ const config = {
   },
   "giveaway": {
     "heroHeadline": "Win <span class='highlight'>Free Blue Jays Tickets</span> for an Epic Game Night!",
-    "heroSubheadline": "Cheer on the Toronto Blue Jays with two seats worth $300 at Rogers Centre! Don’t miss your shot—winner picked August 10th. $1 hot dog night makes it even sweeter!",
+    "heroSubheadline": "Cheer on the Toronto Blue Jays with two seats worth $300 at Rogers Centre! Don’t miss your shot—winner picked August 10th.",
     "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/cvhp1z9jxsrma0cr71eag1k1zm.jpg",
     "promotionDates": "Entry runs August 6–10, 2025. Game is August 13, 2025.",
     "endDate": "2025-08-11T03:59:00.000Z",
@@ -45,10 +45,6 @@ const config = {
       {
         "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/fmyra1fpp1rme0cr71e9yg1bc0.jpg",
         "alt": "Crowd enjoying a live baseball game"
-      },
-      {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/1rn7zr9th5rm80cr71er8a8r5c.jpg",
-        "alt": "Fans eating $1 hot dogs at the stadium"
       }
     ],
     "includedItems": [
@@ -61,10 +57,6 @@ const config = {
         "text": "Prime seats right in the action, $300 value"
       },
       {
-        "icon": "fas fa-hotdog",
-        "text": "$1 hot dog night—snacks for less!"
-      },
-      {
         "icon": "fas fa-calendar-check",
         "text": "Game is August 13, 2025 at 7:00 PM"
       },
@@ -75,7 +67,7 @@ const config = {
     ],
     "name": "Blue Jays Game Night Experience for Two",
     "value": "$300 Value",
-    "description": "Imagine this: you and a friend right in the action to see the Toronto Blue Jays take on the Chicago Cubs. Feel the excitement, join the cheers, and grab $1 hot dogs all night long. You both get amazing seats in the heart of the action with nothing to pay out of pocket. It’s the perfect way to celebrate summer in the city, meet other fans, and make memories that will last forever.",
+    "description": "Imagine this: you and a friend right in the action to see the Toronto Blue Jays take on the Chicago Cubs. Feel the excitement and join the cheers. You both get amazing seats in the heart of the action with nothing to pay out of pocket. It’s the perfect way to celebrate summer in the city, meet other fans, and make memories that will last forever.",
     "limitedTimeOfferText": "Limited Giveaway – Ends August 10!",
     "ctaButtonText": "I Want These Tickets!"
   },
@@ -109,10 +101,6 @@ const config = {
       {
         "icon": "fas fa-baseball-ball",
         "text": "Best seats for baseball fans"
-      },
-      {
-        "icon": "fas fa-hotdog",
-        "text": "$1 hot dog night"
       },
       {
         "icon": "fas fa-star",
@@ -156,7 +144,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1753454442007_0",
+      "id": "q_auto_1753817531120_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -178,7 +166,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1753454442007_1",
+      "id": "q_auto_1753817531121_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -200,7 +188,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1753454442007_2",
+      "id": "q_auto_1753817531121_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
