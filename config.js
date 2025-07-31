@@ -8,7 +8,7 @@ const config = {
     "heroHeadline": "Win <span class='highlight'>Free Blue Jays Tickets</span> for an Epic Game Night!",
     "heroSubheadline": "Cheer on the Toronto Blue Jays with two seats worth $300 at Rogers Centre! Don’t miss your shot—winner picked August 10th.",
     "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/cvhp1z9jxsrma0cr71eag1k1zm.jpg",
-    "promotionDates": "Entry runs August 6–10, 2025. Game is August 13, 2025.",
+    "promotionDates": "Entry runs August 5–10, 2025. Game is August 13, 2025.",
     "endDate": "2025-08-11T03:59:00.000Z",
     "heroCtaText": "Enter to Win Now!",
     "entryFormCtaText": "Enter My Name Now!",
@@ -144,7 +144,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1753823448238_0",
+      "id": "q_auto_1753984637526_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -166,7 +166,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1753823448238_1",
+      "id": "q_auto_1753984637526_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -188,7 +188,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1753823448238_2",
+      "id": "q_auto_1753984637526_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
